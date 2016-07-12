@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Slide and Push Menus</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Dashboard</h3>
+			<a href="#time-chart">Number of Donations</a>
+			<a href="#resource-type-row-chart">Resources Type</a>
+			<a href="#funding-chart">Funding Status</a>
+			<a href="#poverty-level-row-chart">Poverty Level</a>
+			<a href="#primary-focus-area">Primary Focus Area</a>
+			<a href="#menu-select">Donation State</a>
+			<a href="#number-projects-nd">Total Number of Donations</a>
+			<a href="#total-donations-nd">Total Donations</a>
+
+		</nav>
+		<div class="container">
+
+			<div class="main">
+				<section class="buttonset">
+					<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+					<button id="showLeftPush">Show/Hide Left Push Menu</button>
+				</section>
+			</div>
+		</div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+			};
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160216 20:02:26.402" generator="Robot 3.0 (Python 2.7.10 on darwin)">
+<suite source="/Users/fionaflynn/Documents/mongodb/stream2 project/school_donations/robot_test" id="s1" name="Robot Test">
+<suite source="/Users/fionaflynn/Documents/mongodb/stream2 project/school_donations/robot_test/donation_robot_test.robot" id="s1-s1" name="Donation Robot Test">
+<test id="s1-s1-t1" name="Test title">
+<kw name="Provided precondition">
+<kw name="Setup system upynder test">
+<msg timestamp="20160216 20:02:26.453" level="FAIL">No keyword with name 'Setup system upynder test' found.</msg>
+<status status="FAIL" endtime="20160216 20:02:26.453" starttime="20160216 20:02:26.453"></status>
+</kw>
+<status status="FAIL" endtime="20160216 20:02:26.454" starttime="20160216 20:02:26.450"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="FAIL" endtime="20160216 20:02:26.454" critical="yes" starttime="20160216 20:02:26.450">No keyword with name 'Setup system upynder test' found.</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" endtime="20160216 20:02:26.455" starttime="20160216 20:02:26.447"></status>
+</suite>
+<status status="FAIL" endtime="20160216 20:02:26.456" starttime="20160216 20:02:26.404"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">DEBUG</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Robot Test" pass="0">Robot Test</stat>
+<stat fail="1" id="s1-s1" name="Donation Robot Test" pass="0">Robot Test.Donation Robot Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
